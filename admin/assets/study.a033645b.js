@@ -1,0 +1,1 @@
+import{p as s}from"./index.74846b94.js";import{t as e}from"./tag.6613979c.js";const a=s("useStudyStore",{state:()=>({tagList:{}}),actions:{async tagInfoListAPI(){const t=await e({});this.tagList=t}},persist:!0});export{a as u};
