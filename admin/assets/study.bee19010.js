@@ -1,1 +1,0 @@
-import{p as i}from"./index.47abfc20.js";import{r as n}from"./school.6822d12c.js";const s=async e=>await n.post("https://api.ps.familyeducation.org.cn/v1/tag/info/list",e),r=i("useStudyStore",{state:()=>({tagList:{}}),actions:{async tagInfoListAPI(){const e=await s({});this.tagList=e}},persist:!0});export{r as u};
