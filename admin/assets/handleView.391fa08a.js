@@ -1,1 +1,0 @@
-import{u as i}from"./school.79d284e8.js";import{h as o}from"./moment.9709ab41.js";const h=e=>{const r=i().gradeList,t=new Date().getFullYear();let a=2020;o().isBefore(o(`${t}-09-01`))?a=t-Number(e):a=t-Number(e)+1;let s={};for(const n of r)n.id===a&&(s=n);return s},c=()=>o().add(-8,"months").year(),l=e=>{const r=Number(e);return c()-r+1},m=e=>c()-e+1;export{l as A,m as a,h};
