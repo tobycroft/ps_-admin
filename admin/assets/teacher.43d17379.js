@@ -1,1 +1,0 @@
-import{p as a}from"./index.099d31f6.js";import{r}from"./datacenter.9245f16c.js";const i=a("teacher",{state:()=>({teacherList:{}}),getters:{getTeacherList:e=>e.teacherList},actions:{async reqDatasourceTeacherAPI(e){const t=await r({school_id:e});this.teacherList=t}},persist:!0});export{i as u};
