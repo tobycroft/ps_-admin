@@ -1,0 +1,1 @@
+import{p as n}from"./index.d25b2265.js";import{r as s}from"./request.658cd5a0.js";const i=async o=>await s.post("https://api.ps.familyeducation.org.cn/v1/user/info/my",o),_=n("user",{state:()=>({schoolUserInfo:{}}),getters:{getSchoolUserInfo:o=>o.schoolUserInfo},actions:{async saveSchoolUserInfo(){const e=await i({});this.schoolUserInfo=e}},persist:!0});export{_ as u};
