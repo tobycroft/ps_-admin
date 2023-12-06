@@ -1,0 +1,1 @@
+import{r as e}from"./request.8d473646.js";const s=async o=>await e.post("https://api.ps.familyeducation.org.cn/v1/notice/dashboard/list",o),i=async o=>await e.post("https://api.ps.familyeducation.org.cn/v1/notice/dashboard/del",o),a=async o=>await e.post("https://api.ps.familyeducation.org.cn/v1/notice/dashboard/add",o);export{i as a,a as b,s as r};
